@@ -1,2 +1,2 @@
 # LottieSample
-Animated Android application using Lottie library
+Animated Android application using Lottie (https://github.com/airbnb/lottie-android) library
