@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:padding="12dp"
+    android:orientation="vertical"
+    >
+
+  <com.airbnb.lottie.LottieAnimationView
+      android:id="@+id/animationView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/btnStartPause"
+      android:layout_marginBottom="12dp"
+      />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Пауза"
+      android:id="@+id/btnStartPause"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      />
+
+</RelativeLayout>
